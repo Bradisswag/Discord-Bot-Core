@@ -6,6 +6,7 @@ namespace DiscordBotCore
     {
         private static void Main()
         {
+            Unity.RegisterTypes();
             Console.WriteLine("Hello, Discord!");
         }
     }
